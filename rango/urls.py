@@ -4,5 +4,8 @@ from rango import views
 app_name = 'rango'
 
 urlpatterns = [
-    path('', views.index, name = 'index'),
+    #changed for exercise 4
+    path('index/', views.index, name = 'index'),
+    path('about/', views.about, name ='about')
+
 ]
